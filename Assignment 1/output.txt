@@ -1,0 +1,66 @@
+Part A: Stack ADT (ADT + Operations)
+
+Output:-
+
+Top: 30
+Size: 3
+Pop: 30
+Size after pop: 2
+
+Fibonacci: 5
+Recursion Trace:
+fib(1)
+fib(0)
+fib(1)
+fib(2)
+fib(3)
+fib(0)
+fib(1)
+fib(2)
+fib(1)
+fib(0)
+fib(1)
+fib(2)
+fib(3)
+fib(4)
+fib(5)
+
+
+Part B: Factorial & Fibonacci (Recursion + Complexity)
+
+Output:-
+
+Enter n (>=0): 5
+Factorial: 120
+Fibonacci (Naive): 5
+Fibonacci (Memoization): 5
+Factorial Time Complexity: O(n)
+Factorial Space Complexity: O(n)
+Naive Fibonacci Time Complexity: O(2^n)
+Naive Fibonacci Space Complexity: O(n)
+Memoized Fibonacci Time Complexity: O(n)
+Memoized Fibonacci Space Complexity: O(n)
+
+
+Part C: Tower of Hanoi (Recursion + Trace)
+
+Output:-
+
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+
+Part D: Recursive Binary Search (Divide & Conquer + Recurrence)
+
+Output:-
+
+3
+0
+6
+-1
+-1
