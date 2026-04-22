@@ -1,0 +1,19 @@
+Correctness Check:
+Original: [12, 7, 3, 19, 4, 11]
+Insertion: [3, 4, 7, 11, 12, 19]
+Merge: [3, 4, 7, 11, 12, 19]
+Quick: [3, 4, 7, 11, 12, 19]
+
+--- PERFORMANCE TABLE ---
+
+Size: 1500, Type: random
+Insertion Sort: 52 ms
+Merge Sort: 3 ms
+Quick Sort: 2 ms
+
+Size: 6000, Type: random
+Insertion Sort: 769 ms
+Merge Sort: 14 ms
+Quick Sort: 8 ms
+
+Size: 12000, Type: random
