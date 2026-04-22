@@ -1,0 +1,32 @@
+TASK 1: DYNAMIC ARRAY TEST
+
+Appending 10 items:
+[Resize Event] Capacity reached 3. Doubling...
+[Resize Event] Capacity reached 6. Doubling...
+[Resize Event] Capacity reached 12. Doubling...
+Final Array: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Performing 2 pops:
+Updated Array: [5, 6, 7, 8, 9, 10, 11, 12]
+
+TASK 2A: SINGLY LINKED LIST TEST
+
+After insertions:
+25 -> 15 -> 5 -> 50 -> 60 -> 70
+After deleting 50:
+25 -> 15 -> 5 -> 60 -> 70
+
+TASK 2B: DOUBLY LINKED LIST TEST
+
+Initial DLL:
+P <-> Q <-> R
+After inserting Z after Q:
+P <-> Q <-> Z <-> R
+After deleting position 2:
+P <-> Q <-> R
+
+TASK 4: PARENTHESES CHECKER TEST
+
+Input: '{[]}' -> Result: Balanced
+Input: '{[(])}' -> Result: Not Balanced
+Input: '(()' -> Result: Not Balanced
+Input: '' -> Result: Balanced
